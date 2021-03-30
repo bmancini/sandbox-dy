@@ -19,9 +19,11 @@
     <link rel="dns-prefetch" href="//cdn.dynamicyield.com">
     <link rel="dns-prefetch" href="//st.dynamicyield.com">
     <link rel="dns-prefetch" href="//rcom.dynamicyield.com">
-    <script type="text/javascript">\
-        // pushing this to github, not sure if need to wrap in (this)();
-      	DY.recommendationContext = {type: 'HOMEPAGE'};
+    <script type="text/javascript">
+      window.DY = window.DY || {};
+      DY.recommendationContext = {
+        type: 'HOMEPAGE'
+      }
     </script>
     <script type="text/javascript" src="//cdn.dynamicyield.com/api/8776574/api_dynamic.js"></script>
     <script type="text/javascript" src="//cdn.dynamicyield.com/api/8776574/api_static.js"></script>
